@@ -11,6 +11,7 @@ services:
       - MEILI_ENV=production
     ports:
       - 7700:7700
+    restart: always
 volumes:
   meili-data:
     driver: local
