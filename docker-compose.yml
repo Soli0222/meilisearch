@@ -2,7 +2,7 @@ version: "3"
 services:
   meilisearch:
     container_name: meilisearch
-    image: getmeili/meilisearch:prototype-japanese-8
+    image: getmeili/meilisearch:prototype-japanese-13
     volumes:
       - ./meili_data:/meili_data
     environment: 
